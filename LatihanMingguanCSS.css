@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.ayo-join {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    color: azure;
+}
+
+body {
+    background-image: url(./gambar.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    max-width: 100%;
+}
+
+img {
+    border: 2px solid red;
+    border-radius: 10px;
+    display: block;
+    width: 20%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.8;
+}
+
+.selector {
+    background-color: gray;
+	border:solid blue 7px;
+    text-align: center;
+    max-height: 100%;
+    padding: 90px 0px 90px 0px;
+    margin: 10px 300px 10px 300px;
+    border-radius: 20px;
+}
+
+p:first-child {
+    color: blue;
+}
+
+p:nth-last-child(4)
+{
+    color: orange;
+}
+
+p:nth-child(3)
+{
+    color: white;
+    text-decoration: underline;
+}
+
+p:nth-child(4)
+{
+    color: purple;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+p:last-child {
+    color: red;
+    text-transform: uppercase;
+}
+
+.link-center {
+    text-align: center;   
+}
+
+a {
+    text-decoration: none;
+}
